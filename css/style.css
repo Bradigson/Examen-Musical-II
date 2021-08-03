@@ -18,13 +18,13 @@ body{
 }
 #img1{
     width:450px;
-    margin-left:100px;
+    margin-left:70px;
     filter:drop-shadow(1px 3px 8px rgba(0,0,0));
 
 }
 #personal-datos{
     
-    margin-right:50px;
+    margin-right:100px;
     width:600px;
 }
 #name{
@@ -36,19 +36,22 @@ body{
     background:none;
     border-bottom:2px solid #fff;
     box-shadow:none;
+    margin-top:40px;
+    color:#fff;
+   
 }
 #name::placeholder{
     color:#fff;
-    padding-left:25px;
+    
     
 }
 #instrumento::placeholder{
     color:#fff;
-    padding-left:25px;
+    
 }
 #password::placeholder{
     color:#fff;
-    padding-left:25px;
+    
 }
 #name:focus{
     background:rgba(255,255,255,.4);
@@ -65,4 +68,45 @@ body{
 #boton1{
     width:200px;
     filter:drop-shadow(1px 2px 3px rgba(0,0,0,.6));
+    
+}
+#spanname1, #spanname2, #spanname3{
+ 
+   width:30px;
+   border-radius:20rem;
+   padding-left:20px;
+   position:absolute;
+   margin-top:-25px;
+   color:#ff0000;
+   font-size:20px;
+   margin-left:40px;
+   right: 80px;
+   margin-top:-75px;
+   display:none;
+  
+   
+}
+.bxs-x-circle{
+    text-align:center;
+   margin-left:-15px;
+   font-size:30px;
+   background:rgb(255,255,255);
+   border-radius:20em;  
+   animation-name:alert;
+   animation-duration:2s;
+   animation-iteration-count:infinite; 
+    
+}
+
+@keyframes alert{
+
+    0%{
+        box-shadow: 0 0 0 0 rgb(230, 16, 16,.7);
+    }
+    70%{
+        box-shadow: 0 0 0 10px rgb(230, 16, 16,.0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgb(230, 16, 16,.0);
+    }
 }

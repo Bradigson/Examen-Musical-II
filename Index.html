@@ -15,6 +15,7 @@
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
 
@@ -25,10 +26,10 @@
              
                 <form action="" class="form-group" name="personaldatos" id="personal-datos">
                     <h1 class="text-center text-white">Examen Musical<br>
-                        Profe: <span>Bradigson Nuñez</span></h1>
-                    <input type="text" class="form-control" placeholder="Nombre" id="name" data-toggle="tooltip" title="introduzca su nombre aca">
-                    <input type="text" class="form-control" placeholder="Instrumento" id="instrumento" data-toggle="tooltip" title="Introduzca el nombre de su instrumento aca">
-                    <input type="password" class="form-control" placeholder="Password" id="password" data-toggle="tooltip" title="Instroduzca su contraseña">
+                        Profe: <span>Bradigson Nuñez</span></h1><br>
+                    <input type="text" class="form-control" placeholder="Nombre" id="name" data-toggle="tooltip" title="introduzca su nombre aca, sin numeros por favor"><span id="spanname1"><i class='bx bxs-x-circle'></i></span>
+                    <input type="text" class="form-control" placeholder="Instrumento" id="instrumento" data-toggle="tooltip" title="Introduzca el nombre de su instrumento aca, sin numeros por favor"><span id="spanname2"><i class='bx bxs-x-circle'></i></span>
+                    <input type="password" class="form-control" placeholder="Password" id="password" data-toggle="tooltip" title="Instroduzca su contraseña, sin letras por favor"><span id="spanname3"><i class='bx bxs-x-circle'></i></span>
                     <button class="btn btn-primary" id="boton1">Empezar Examen</button>
 
                 </form>
